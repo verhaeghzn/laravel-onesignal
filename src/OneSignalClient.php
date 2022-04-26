@@ -86,7 +86,7 @@ class OneSignalClient
             'timeout' => $guzzleClientTimeout,
         ]);
         $this->headers = ['headers' => []];
-        $this->additionalParams = ['ios_badgeType' => 'Increase', 'ios_badgeCount' => 1];
+        $this->additionalParams = ['ios_badgeType' => 'SetTo', 'ios_badgeCount' => 1];
     }
 
     private function createGuzzleHandler() {
