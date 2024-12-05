@@ -13,7 +13,7 @@ use GuzzleHttp\Psr7\Response as Psr7Response;
 
 class OneSignalClient
 {
-    const API_URL = "https://onesignal.com/api/v1";
+    const API_URL = "https://api.onesignal.com";
 
     const ENDPOINT_NOTIFICATIONS = "/notifications";
     const ENDPOINT_PLAYERS = "/players";
